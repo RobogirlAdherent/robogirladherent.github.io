@@ -50,17 +50,43 @@ html,body
     background-position-y: 10%;
     background-position-x: 50%;
     */
+    orientation: portrait;
     margin-top: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 70%;
+    height: 300%;
 }
 #glaz
 {
     margin-top: 10px;
 }
 
-#lane
+#imgleft
+{
+    z-index: -1;
+    left: 0%;
+    height: 100%;
+    width:auto;
+    top: 50%;
+}
+
+#imgright
+{
+    z-index: -1;
+    left: 100%;
+    height: 100%;
+    width:auto;
+    top: 50%;
+}
+
+#gif
+{
+    height: 900px;
+    width: auto;
+}
+
+#lain
 {
     position: relative;
     bottom: 266%;
